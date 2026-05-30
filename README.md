@@ -50,6 +50,7 @@ graph TD
 ```
 ---
 ## 📊 Analytical Capability Comparison
+
 |Feature Metric|Traditional Online Checkers|Integrus Plagiarism Checker|
 |---|---|---|
 |**Data Retention**| Often archives papers into global databases|**Absolute Privacy** (Zero server storage)|
@@ -69,7 +70,7 @@ graph TD
 2. **Open the Application:**
    Simply double-click `integrus ai plagiarism checker 1.html` to launch it instantly in your web browser. No complex npm environments or runtime installations required.
 3. **API Configuration:**
-   To enable live web searching, locate the `livePlagiarismCheck` function within the script tag and replace `"Your API Key"` with your valid Gemini API key.
+   To enable live web searching, locate the `livePlagiarismCheck` function within the script tag and replace `"Your API Key"` with your valid Gemini API key. 
 ---
 ## ⚠️ Disclaimer
 
@@ -92,4 +93,5 @@ Academic open-source software relies entirely on community support. If this proj
 ## Keywords & Indexing
 
 `Plagiarism Checker` • `AI Detector` • `Privacy-First Analytics` • `Gemini API` • `Computational Linguistics` • `Academic Integrity` • `HTML5 Application`
+
 #AcademicTwitter #DataScience #ArtificialIntelligence #MachineLearning #OpenSource #NLP #PrivacyMatters
