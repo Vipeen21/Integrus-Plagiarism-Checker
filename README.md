@@ -28,39 +28,41 @@
 ## 🛠️ Technical Overview
 
 The tool is built as an incredibly lightweight, single-page application (SPA) requiring zero backend server configurations:
-* **Frontend:** HTML5 & Tailwind CSS for a modern, responsive, academic-focused interface utilizing the Inter font family.
+* **Frontend:** HTML5 & Tailwind CSS for a modern, responsive, academic-focused interface utilising the Inter font family.
 * **Intelligence Engine:** Integrated with the **Gemini 2.0 Flash** model for real-time semantic analysis and live source verification.
 
 ---
 
 ## 🏗️ System Architecture & Workflow
 
-Integrus decouples text evaluation into isolated client-side tasks to guarantee speed and absolute data isolation:
-
-```text
-  [ Input Document ] 
-         │
-         ▼
- ┌───────────────┐
- │   Integrus    │
- │ Engine Core   │ (Runs locally in your browser environment)
- └───────┬───────┘
-         ├──────────────────────────────────┐
-         ▼                                  ▼
-┌──────────────────┐               ┌──────────────────┐
-│   Dual-Analysis  │               │   Heuristic AI   │
-│   Web Mapping    │               │  Pattern Scanner │
-└────────┬─────────┘               └────────┬─────────┘
-         │ (Gemini Live API)                │ (Perplexity & Burstiness)
-         ▼                                  ▼
-┌──────────────────┐               ┌──────────────────┐
-│ Real-Time Source │               │  Synthetic Text  │
-│    Match URLs    │               │ Confidence Score │
-└────────┬─────────┘               └────────┬─────────┘
-         └─────────────────┬────────────────┘
-                           ▼
-               [ Integrated Analytics ]
-               [ Dashboard Generation ]
+```mermaid
+graph TD
+    A[Input Document] --> B[Integrus Engine Core <br/><i>Runs locally in browser</i>]
+    B --> C[Dual-Analysis Web Mapping]
+    B --> D[Heuristic AI Pattern Scanner]
+    C -->|Gemini Live API| E[Real-Time Source Match URLs]
+    D -->|Perplexity & Burstiness| F[Synthetic Text Confidence Score]
+    E --> G[Integrated Analytics Dashboard]
+    F --> G
+    
+    style B fill:#f5f5f5,stroke:#333,stroke-width:2px
+    style G fill:#edf2f7,stroke:#333,stroke-width:2px
 ```
-📊 Analytical Capability ComparisonFeature MetricTraditional Online CheckersIntegrus Plagiarism CheckerData RetentionOften archives papers into global databasesAbsolute Privacy (Zero server storage)ArchitectureHeavy server-dependent backendSingle Page Application (Lightweight HTML5)Max Word CapacityStrictly capped or gated behind paywallsHigh Capacity (Up to 11,000 words)Source MappingVague match percentagesDirect live URLs extracted via Gemini API📁 File Structureintegrus ai plagiarism checker 1.html: The core application containing the interface logic, styling, and Gemini API integration.README.md: Project documentation and setup guide.🚀 Getting StartedClone the Repository:Bashgit clone [https://github.com/Vipeen21/Integrus-Plagiarism-Checker.git](https://github.com/Vipeen21/Integrus-Plagiarism-Checker.git)
-Open the Application:Simply double-click integrus ai plagiarism checker 1.html to launch it instantly in your web browser. No complex npm environments or runtime installations required.API Configuration:To enable live web searching, locate the livePlagiarismCheck function within the script tag and replace "Your API Key" with your valid Gemini API key.⚠️ DisclaimerThis tool provides plagiarism detection and AI content analysis using heuristic evaluation metrics. It is designed to assist researchers and students in verifying text originality; however, results should be interpreted as indicator scores rather than absolute proof. Always cross-reference critical data points manually.🔮 Future RoadmapWe are consistently evolving this framework to address emerging challenges in computational linguistics and academic integrity:[ ] Dynamic Visualization Graphs: Adding native charting to visually map text-match densities across different document sections.[ ] Local LLM Integration: Bringing processing thresholds fully offline using WebGPU and lightweight on-device open-source models.[ ] Cross-Language Mapping: Translating and evaluating text across multi-lingual repositories to catch hidden structural alignment.🤝 Connect & Support the ProjectAcademic open-source software relies entirely on community support. If this project helps protect your research data, help us spread the word:⭐ Star this Repo: Bookmark this tool and help it reach other researchers who need data privacy.🍴 Fork & Collaborate: Found a way to optimize the text processing or interface? Fork the repository and open a Pull Request.📢 Share the Initiative: Help students and academics protect their intellectual property from greedy databases.Keywords & IndexingPlagiarism Checker • AI Detector • Privacy-First Analytics • Gemini API • Computational Linguistics • Academic Integrity • HTML5 Application#AcademicTwitter #DataScience #ArtificialIntelligence #MachineLearning #OpenSource #NLP #PrivacyMatters
+---
+📊 Analytical Capability Comparison
+Feature Metric|Traditional Online Checkers|Integrus Plagiarism Checker|
+Data RetentionOften archives papers into global databasesAbsolute Privacy (Zero server storage)ArchitectureHeavy server-dependent backendSingle Page Application (Lightweight HTML5)Max Word CapacityStrictly capped or gated behind paywallsHigh Capacity (Up to 11,000 words)Source MappingVague match percentagesDirect live URLs extracted via Gemini API
+---
+📁 File Structureintegrus ai plagiarism checker 1.html: The core application containing the interface logic, styling, and Gemini API integration.README.md: Project documentation and setup guide.
+---
+🚀 Getting StartedClone the Repository:Bashgit clone https://github.com/Vipeen21/Integrus-Plagiarism-Checker.git
+Open the Application:Simply double-click integrus ai plagiarism checker 1.html to launch it instantly in your web browser. No complex npm environments or runtime installations required.API Configuration:To enable live web searching, locate the livePlagiarismCheck function within the script tag and replace "Your API Key" with your valid Gemini API key.
+---
+⚠️ DisclaimerThis tool provides plagiarism detection and AI content analysis using heuristic evaluation metrics. It is designed to assist researchers and students in verifying text originality; however, results should be interpreted as indicator scores rather than absolute proof. Always cross-reference critical data points manually.
+---
+🔮 Future RoadmapWe are consistently evolving this framework to address emerging challenges in computational linguistics and academic integrity:[ ] Dynamic Visualization Graphs: Adding native charting to visually map text-match densities across different document sections.[ ] Local LLM Integration: Bringing processing thresholds fully offline using WebGPU and lightweight on-device open-source models.[ ] Cross-Language Mapping: Translating and evaluating text across multi-lingual repositories to catch hidden structural alignment.
+---
+🤝 Connect & Support the ProjectAcademic open-source software relies entirely on community support. If this project helps protect your research data, help us spread the word:⭐ Star this Repo: Bookmark this tool and help it reach other researchers who need data privacy.🍴 Fork & Collaborate: Found a way to optimize the text processing or interface? Fork the repository and open a Pull Request.📢 Share the Initiative: Help students and academics protect their intellectual property from greedy databases.
+---
+# Keywords & Indexing
+Plagiarism Checker • AI Detector • Privacy-First Analytics • Gemini API • Computational Linguistics • Academic Integrity • HTML5 Application#AcademicTwitter #DataScience #ArtificialIntelligence #MachineLearning #OpenSource #NLP #PrivacyMatters
