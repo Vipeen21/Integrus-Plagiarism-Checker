@@ -74,7 +74,7 @@ graph TD
 ---
 ## ⚠️ Disclaimer
 
-This tool provides plagiarism detection and AI content analysis using heuristic evaluation metrics. It is designed to assist researchers and students in verifying text originality; however, results should be interpreted as indicator scores rather than absolute proof. Always cross-reference critical data points manually.
+This tool provides plagiarism detection and AI content analysis using heuristic evaluation metrics. It is designed to assist researchers and students in verifying text originality; however, results should be interpreted as indicator scores rather than absolute proof. Always cross-reference critical data points manually. 
 ---
 ## 🔮 Future Roadmap
 
@@ -93,5 +93,6 @@ Academic open-source software relies entirely on community support. If this proj
 ## Keywords & Indexing
 
 `Plagiarism Checker` • `AI Detector` • `Privacy-First Analytics` • `Gemini API` • `Computational Linguistics` • `Academic Integrity` • `HTML5 Application`
+
 
 #AcademicTwitter #DataScience #ArtificialIntelligence #MachineLearning #OpenSource #NLP #PrivacyMatters
