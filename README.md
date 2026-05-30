@@ -72,6 +72,7 @@ graph TD
    To enable live web searching, locate the <mark>livePlagiarismCheck</mark> function within the script tag and replace <mark>"Your API Key"</mark> with your valid Gemini API key.
 ---
 ##⚠️ Disclaimer
+
 This tool provides plagiarism detection and AI content analysis using heuristic evaluation metrics. It is designed to assist researchers and students in verifying text originality; however, results should be interpreted as indicator scores rather than absolute proof. Always cross-reference critical data points manually.
 ---
 ##🔮 Future Roadmap
