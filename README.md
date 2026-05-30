@@ -67,15 +67,24 @@ graph TD
    git clone https://github.com/Vipeen21/Integrus-Plagiarism-Checker.git
    ```
 2. **Open the Application:**
-   Simply double-click integrus ai plagiarism checker 1.html to launch it instantly in your web browser. No complex npm environments or runtime installations required.
+   Simply double-click <mark>integrus ai plagiarism checker 1.html</mark> to launch it instantly in your web browser. No complex npm environments or runtime installations required.
 3. **API Configuration:**
-   To enable live web searching, locate the livePlagiarismCheck function within the script tag and replace "Your API Key" with your valid Gemini API key.
+   To enable live web searching, locate the <mark>livePlagiarismCheck</mark> function within the script tag and replace <mark>"Your API Key"</mark> with your valid Gemini API key.
 ---
-⚠️ DisclaimerThis tool provides plagiarism detection and AI content analysis using heuristic evaluation metrics. It is designed to assist researchers and students in verifying text originality; however, results should be interpreted as indicator scores rather than absolute proof. Always cross-reference critical data points manually.
+##⚠️ Disclaimer
+This tool provides plagiarism detection and AI content analysis using heuristic evaluation metrics. It is designed to assist researchers and students in verifying text originality; however, results should be interpreted as indicator scores rather than absolute proof. Always cross-reference critical data points manually.
 ---
-🔮 Future RoadmapWe are consistently evolving this framework to address emerging challenges in computational linguistics and academic integrity:[ ] Dynamic Visualization Graphs: Adding native charting to visually map text-match densities across different document sections.[ ] Local LLM Integration: Bringing processing thresholds fully offline using WebGPU and lightweight on-device open-source models.[ ] Cross-Language Mapping: Translating and evaluating text across multi-lingual repositories to catch hidden structural alignment.
+##🔮 Future Roadmap
+We are consistently evolving this framework to address emerging challenges in computational linguistics and academic integrity:
+* **Dynamic Visualisation Graphs:** Adding native charting to visually map text-match densities across different document sections.
+* **Local LLM Integration:** Bringing processing thresholds fully offline using WebGPU and lightweight on-device open-source models.
+* **Cross-Language Mapping:** Translating and evaluating text across multi-lingual repositories to catch hidden structural alignment.
 ---
-🤝 Connect & Support the ProjectAcademic open-source software relies entirely on community support. If this project helps protect your research data, help us spread the word:⭐ Star this Repo: Bookmark this tool and help it reach other researchers who need data privacy.🍴 Fork & Collaborate: Found a way to optimize the text processing or interface? Fork the repository and open a Pull Request.📢 Share the Initiative: Help students and academics protect their intellectual property from greedy databases.
+🤝 Connect & Support the Project
+Academic open-source software relies entirely on community support. If this project helps protect your research data, help us spread the word:
+* **⭐ Star this Repo:** Bookmark this tool and help it reach other researchers who need data privacy.
+* **🍴 Fork & Collaborate:** Found a way to optimize the text processing or interface? Fork the repository and open a Pull Request.
+* **📢 Share the Initiative:** Help students and academics protect their intellectual property from greedy databases.
 ---
 # Keywords & Indexing
 Plagiarism Checker • AI Detector • Privacy-First Analytics • Gemini API • Computational Linguistics • Academic Integrity • HTML5 Application#AcademicTwitter #DataScience #ArtificialIntelligence #MachineLearning #OpenSource #NLP #PrivacyMatters
