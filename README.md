@@ -49,9 +49,9 @@ graph TD
     style G fill:#edf2f7,stroke:#333,stroke-width:2px
 ```
 ---
-📊 Analytical Capability Comparison
-Feature Metric|Traditional Online Checkers|Integrus Plagiarism Checker|
-Data RetentionOften archives papers into global databasesAbsolute Privacy (Zero server storage)ArchitectureHeavy server-dependent backendSingle Page Application (Lightweight HTML5)Max Word CapacityStrictly capped or gated behind paywallsHigh Capacity (Up to 11,000 words)Source MappingVague match percentagesDirect live URLs extracted via Gemini API
+## 📊 Analytical Capability Comparison
+Feature Metric|Traditional Online Checkers|Integrus Plagiarism Checker
+Data Retention| Often archives papers into global databases|Absolute Privacy (Zero server storage)|Architecture|Heavy server-dependent backend|Single Page Application (Lightweight HTML5)|Max Word Capacity|Strictly capped or gated behind paywalls|High Capacity (Up to 11,000 words)|Source Mapping|Vague match percentages|Direct live URLs extracted via Gemini API
 ---
 📁 File Structureintegrus ai plagiarism checker 1.html: The core application containing the interface logic, styling, and Gemini API integration.README.md: Project documentation and setup guide.
 ---
