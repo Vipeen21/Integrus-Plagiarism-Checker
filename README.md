@@ -52,12 +52,24 @@ graph TD
 ## 📊 Analytical Capability Comparison
 |Feature Metric|Traditional Online Checkers|Integrus Plagiarism Checker|
 |---|---|---|
-Data Retention| Often archives papers into global databases|Absolute Privacy (Zero server storage)|Architecture|Heavy server-dependent backend|Single Page Application (Lightweight HTML5)|Max Word Capacity|Strictly capped or gated behind paywalls|High Capacity (Up to 11,000 words)|Source Mapping|Vague match percentages|Direct live URLs extracted via Gemini API
+|**Data Retention**| Often archives papers into global databases|Absolute Privacy (Zero server storage)|
+|**Architecture**|Heavy server-dependent backend|Single Page Application (Lightweight HTML5)|
+|**Max Word Capacity**|Strictly capped or gated behind paywalls|High Capacity (Up to 11,000 words)|
+|**Source Mapping**|Vague match percentages|Direct live URLs extracted via Gemini API
 ---
-📁 File Structureintegrus ai plagiarism checker 1.html: The core application containing the interface logic, styling, and Gemini API integration.README.md: Project documentation and setup guide.
+## 📁 File Structure
+* integrus ai plagiarism checker 1.html: The core application containing the interface logic, styling, and Gemini API integration.
+* README.md: Project documentation and setup guide.
 ---
-🚀 Getting StartedClone the Repository:Bashgit clone https://github.com/Vipeen21/Integrus-Plagiarism-Checker.git
-Open the Application:Simply double-click integrus ai plagiarism checker 1.html to launch it instantly in your web browser. No complex npm environments or runtime installations required.API Configuration:To enable live web searching, locate the livePlagiarismCheck function within the script tag and replace "Your API Key" with your valid Gemini API key.
+## 🚀 Getting Started
+1. **Clone the Repository:**
+   ```Bash
+   git clone https://github.com/Vipeen21/Integrus-Plagiarism-Checker.git
+   ```
+2. **Open the Application:**
+   Simply double-click integrus ai plagiarism checker 1.html to launch it instantly in your web browser. No complex npm environments or runtime installations required.
+3. **API Configuration:**
+   To enable live web searching, locate the livePlagiarismCheck function within the script tag and replace "Your API Key" with your valid Gemini API key.
 ---
 ⚠️ DisclaimerThis tool provides plagiarism detection and AI content analysis using heuristic evaluation metrics. It is designed to assist researchers and students in verifying text originality; however, results should be interpreted as indicator scores rather than absolute proof. Always cross-reference critical data points manually.
 ---
