@@ -58,8 +58,8 @@ graph TD
 |**Source Mapping**|Vague match percentages|**Direct live URLs** extracted via Gemini API
 ---
 ## 📁 File Structure
-* <mark>integrus ai plagiarism checker 1.html</mark>: The core application containing the interface logic, styling, and Gemini API integration.
-* <mark>README.md</mark>: Project documentation and setup guide.
+* `integrus ai plagiarism checker 1.html`: The core application containing the interface logic, styling, and Gemini API integration.
+* `README.md`: Project documentation and setup guide.
 ---
 ## 🚀 Getting Started
 1. **Clone the Repository:**
@@ -67,9 +67,9 @@ graph TD
    git clone https://github.com/Vipeen21/Integrus-Plagiarism-Checker.git
    ```
 2. **Open the Application:**
-   Simply double-click <mark>integrus ai plagiarism checker 1.html</mark> to launch it instantly in your web browser. No complex npm environments or runtime installations required.
+   Simply double-click `integrus ai plagiarism checker 1.html` to launch it instantly in your web browser. No complex npm environments or runtime installations required.
 3. **API Configuration:**
-   To enable live web searching, locate the <mark>livePlagiarismCheck</mark> function within the script tag and replace <mark>"Your API Key"</mark> with your valid Gemini API key.
+   To enable live web searching, locate the `livePlagiarismCheck` function within the script tag and replace `"Your API Key"` with your valid Gemini API key.
 ---
 ## ⚠️ Disclaimer
 
@@ -91,4 +91,5 @@ Academic open-source software relies entirely on community support. If this proj
 ---
 ## Keywords & Indexing
 
-Plagiarism Checker • AI Detector • Privacy-First Analytics • Gemini API • Computational Linguistics • Academic Integrity • HTML5 Application#AcademicTwitter #DataScience #ArtificialIntelligence #MachineLearning #OpenSource #NLP #PrivacyMatters
+`Plagiarism Checker` • `AI Detector` • `Privacy-First Analytics` • `Gemini API` • `Computational Linguistics` • `Academic Integrity` • `HTML5 Application`
+#AcademicTwitter #DataScience #ArtificialIntelligence #MachineLearning #OpenSource #NLP #PrivacyMatters
