@@ -58,8 +58,8 @@ graph TD
 |**Source Mapping**|Vague match percentages|**Direct live URLs** extracted via Gemini API
 ---
 ## 📁 File Structure
-* <integrus ai plagiarism checker 1.html>: The core application containing the interface logic, styling, and Gemini API integration.
-* README.md: Project documentation and setup guide.
+* <mark>integrus ai plagiarism checker 1.html</mark>: The core application containing the interface logic, styling, and Gemini API integration.
+* <mark>README.md</mark>: Project documentation and setup guide.
 ---
 ## 🚀 Getting Started
 1. **Clone the Repository:**
