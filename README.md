@@ -75,16 +75,19 @@ graph TD
 This tool provides plagiarism detection and AI content analysis using heuristic evaluation metrics. It is designed to assist researchers and students in verifying text originality; however, results should be interpreted as indicator scores rather than absolute proof. Always cross-reference critical data points manually.
 ---
 ##🔮 Future Roadmap
+
 We are consistently evolving this framework to address emerging challenges in computational linguistics and academic integrity:
 * **Dynamic Visualisation Graphs:** Adding native charting to visually map text-match densities across different document sections.
 * **Local LLM Integration:** Bringing processing thresholds fully offline using WebGPU and lightweight on-device open-source models.
 * **Cross-Language Mapping:** Translating and evaluating text across multi-lingual repositories to catch hidden structural alignment.
 ---
-🤝 Connect & Support the Project
+## 🤝 Connect & Support the Project
+
 Academic open-source software relies entirely on community support. If this project helps protect your research data, help us spread the word:
 * **⭐ Star this Repo:** Bookmark this tool and help it reach other researchers who need data privacy.
 * **🍴 Fork & Collaborate:** Found a way to optimize the text processing or interface? Fork the repository and open a Pull Request.
 * **📢 Share the Initiative:** Help students and academics protect their intellectual property from greedy databases.
 ---
-# Keywords & Indexing
+## Keywords & Indexing
+
 Plagiarism Checker • AI Detector • Privacy-First Analytics • Gemini API • Computational Linguistics • Academic Integrity • HTML5 Application#AcademicTwitter #DataScience #ArtificialIntelligence #MachineLearning #OpenSource #NLP #PrivacyMatters
