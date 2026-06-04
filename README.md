@@ -45,8 +45,8 @@ graph TD
     E --> G[Integrated Analytics Dashboard]
     F --> G
     
-    style B fill:#87cfeb,stroke:#333,stroke-width:2px, color:#1A1A1A
-    style G fill:#87cfeb,stroke:#333,stroke-width:2px, color:#1A1A1A
+    style B fill:#87cfeb,stroke:#FFFFFF,stroke-width:2px, color:#1A1A1A
+    style G fill:#87cfeb,stroke:#FFFFFF,stroke-width:2px, color:#1A1A1A
 ```
 ---
 ## 📊 Analytical Capability Comparison
